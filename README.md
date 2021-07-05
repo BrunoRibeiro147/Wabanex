@@ -1,19 +1,27 @@
 # Wabanex
 
-To start your Phoenix server:
+Projeto desenvolvido durante a NLW Together:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+Esta aplicação é um gerenciador de atividades fisicas, sendo possível a criação de um usuário e criar para ele um treino contendo vários exercícios, apesar de simples foi possível aprender vários conceitos com a criação dessa aplicação sendo eles:
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- GraphQL
+- Ecto para salvamento no banco de dados
+- Realização de testes 
+- Migrations
+- Schemas
+- Roteamento
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+### Ferramentas Utilizadas:
+- Phoenix
+- Credo
+- Absinthe
+- Ecto
 
-## Learn more
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Para iniciar a aplicação:
+
+  * Instale as dependÊncias com `mix deps.get`
+  * Crie um banco de dados postgres, por padrão o database é: `wabanex_dev` com a senha: `1234`, após criar o banco rode o comando: `mix ecto.setup`
+  * Inicie o servidor com`mix phx.server`
+
+Agora é só entrar em [`localhost:4000`](http://localhost:4000) no seu navegador.
